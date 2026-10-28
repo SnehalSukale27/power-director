@@ -1,0 +1,9 @@
+# Default behavior
+*.woff binary
+public/*.html linguist-vendored
+*.md linguist-documentation
+Cargo.lock linguist-generated
+
+*.map linguist-generated
+**/*.py linguist-detectable
+* text=auto
